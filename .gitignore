@@ -1,0 +1,19 @@
+# Dataset Data (Do not push 40GB to GitHub!)
+data/images/
+data/*.csv
+!data/datasets/
+
+# Large Saved Models and Outputs
+results/checkpoints/
+results/logs/
+results/metrics/
+results/plots/
+
+# Python Virtual Environments & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+env/
