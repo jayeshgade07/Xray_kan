@@ -1,0 +1,51 @@
+2026-04-01 17:18:32,937 - INFO - Starting Training: Model=kan, Dataset=nih
+2026-04-01 17:18:32,937 - INFO - Using device: cpu
+2026-04-02 14:24:13,452 - INFO - Starting Training: Model=kan, Dataset=nih
+2026-04-02 14:24:15,472 - INFO - Using device: cuda
+2026-04-02 14:24:17,351 - INFO - Resuming from checkpoint: results/checkpoints/latest_kan_nih.pth
+2026-04-02 14:28:42,674 - INFO - Epoch 01 | Train Loss: 283.2943 | Val Loss: 67.3612
+2026-04-02 14:28:42,726 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 14:33:06,703 - INFO - Epoch 02 | Train Loss: 24.8282 | Val Loss: 0.6882
+2026-04-02 14:33:06,745 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 14:37:30,970 - INFO - Epoch 03 | Train Loss: 0.7011 | Val Loss: 0.5962
+2026-04-02 14:37:31,013 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 14:41:54,875 - INFO - Epoch 04 | Train Loss: 0.5494 | Val Loss: 0.8003
+2026-04-02 14:46:19,294 - INFO - Epoch 05 | Train Loss: 0.6343 | Val Loss: 0.4996
+2026-04-02 14:46:19,342 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 14:50:44,572 - INFO - Epoch 06 | Train Loss: 0.4264 | Val Loss: 0.2617
+2026-04-02 14:50:44,618 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 14:55:08,356 - INFO - Epoch 07 | Train Loss: 0.3692 | Val Loss: 0.3305
+2026-04-02 14:59:32,307 - INFO - Epoch 08 | Train Loss: 0.3009 | Val Loss: 0.2249
+2026-04-02 14:59:32,346 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 15:03:58,348 - INFO - Epoch 09 | Train Loss: 0.2341 | Val Loss: 0.2056
+2026-04-02 15:03:58,397 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 15:08:20,789 - INFO - Epoch 10 | Train Loss: 0.2137 | Val Loss: 0.2174
+2026-04-02 15:48:49,648 - INFO - Starting Training: Model=kan, Dataset=nih
+2026-04-02 15:48:51,519 - INFO - Using device: cuda
+2026-04-02 15:51:09,410 - INFO - Starting Training: Model=kan, Dataset=nih
+2026-04-02 15:51:09,426 - INFO - Using device: cuda
+2026-04-02 15:51:11,501 - INFO - Resuming from checkpoint: results/checkpoints/latest_kan_nih.pth
+2026-04-02 15:53:15,600 - INFO - Epoch 01 | Train Loss: 795.5808 | Val Loss: 618.2868
+2026-04-02 15:53:15,650 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 15:54:03,278 - INFO - Starting Training: Model=kan, Dataset=nih
+2026-04-02 15:54:03,300 - INFO - Using device: cuda
+2026-04-02 15:58:17,662 - INFO - Epoch 01 | Train Loss: 784.0611 | Val Loss: 594.3974
+2026-04-02 15:58:17,699 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 16:02:06,869 - INFO - Starting Training: Model=kan, Dataset=nih
+2026-04-02 16:02:06,892 - INFO - Using device: cuda
+2026-04-02 16:06:18,500 - INFO - Epoch 01 | Train Loss: 0.1600 | Val Loss: 0.1488
+2026-04-02 16:06:18,548 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 16:10:29,233 - INFO - Epoch 02 | Train Loss: 0.1489 | Val Loss: 0.1488
+2026-04-02 16:10:29,278 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 16:15:02,312 - INFO - Epoch 03 | Train Loss: 0.1448 | Val Loss: 0.1440
+2026-04-02 16:15:02,350 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 16:19:20,784 - INFO - Epoch 04 | Train Loss: 0.1412 | Val Loss: 0.1438
+2026-04-02 16:19:20,828 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 16:23:36,828 - INFO - Epoch 05 | Train Loss: 0.1370 | Val Loss: 0.1431
+2026-04-02 16:23:36,874 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 16:27:46,599 - INFO - Epoch 06 | Train Loss: 0.1324 | Val Loss: 0.1425
+2026-04-02 16:27:46,651 - INFO - >>> Saved Best Model to results/checkpoints/best_kan_nih.pth
+2026-04-02 16:31:58,369 - INFO - Epoch 07 | Train Loss: 0.1273 | Val Loss: 0.1442
+2026-04-02 16:36:08,628 - INFO - Epoch 08 | Train Loss: 0.1224 | Val Loss: 0.1452
+2026-04-02 16:40:19,633 - INFO - Epoch 09 | Train Loss: 0.1184 | Val Loss: 0.1460
+2026-04-02 16:44:33,987 - INFO - Epoch 10 | Train Loss: 0.1160 | Val Loss: 0.1461

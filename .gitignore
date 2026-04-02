@@ -1,13 +1,16 @@
 # Dataset Data (Do not push 40GB to GitHub!)
+data/images_* 
 data/images/
 data/*.csv
 !data/datasets/
 
-# Large Saved Models and Outputs
-results/checkpoints/
-results/logs/
-results/metrics/
-results/plots/
+# Results Folder
+# We ignore the heavy model weights but SAVE the metrics, logs, and plots
+results/checkpoints/*.pth
+results/checkpoints/latest*.pth
+!results/logs/
+!results/metrics/
+!results/plots/
 
 # Python Virtual Environments & Cache
 __pycache__/
@@ -16,4 +19,15 @@ __pycache__/
 .env
 .venv
 venv/
+venv310/
+venv*/
 env/
+
+# Global binary ignores just in case
+*.pth
+*.pth.tar
+*.onnx
+*.weights
+!results/metrics/
+!results/logs/
+!results/plots/

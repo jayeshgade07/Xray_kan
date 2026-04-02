@@ -38,7 +38,11 @@ class CNNKAN(nn.Module):
         super().__init__()
         self.backbone = CNNBackbone(use_pretrained)
         # Use KAN Linear to map directly to logits
-        self.classifier = KANLinear(in_features=1024, out_features=num_classes)
+        self.classifier = nn.Sequential(
+            nn.LayerNorm(1024),
+            nn.Sigmoid(),
+            KANLinear(in_features=1024, out_features=num_classes)
+        )
         
     def forward(self, x):
         features = self.backbone(x)

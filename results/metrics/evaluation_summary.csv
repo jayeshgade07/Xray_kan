@@ -1,0 +1,4 @@
+Model,Dataset,Params,AUC,F1,Accuracy
+kan,nih,7084928,0.8405,0.1771,0.5324
+cnn,nih,6968206,0.8345,0.1687,0.5284
+dense,nih,7546126,0.8298,0.1433,0.5349

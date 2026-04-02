@@ -1,0 +1,42 @@
+2026-04-01 17:24:05,187 - INFO - Starting Training: Model=cnn, Dataset=nih
+2026-04-01 17:24:05,187 - INFO - Using device: cpu
+2026-04-01 17:29:01,793 - INFO - Starting Training: Model=cnn, Dataset=nih
+2026-04-01 17:29:01,793 - INFO - Using device: cpu
+2026-04-01 17:29:03,264 - INFO - Resuming from checkpoint: results/checkpoints/latest_cnn_nih.pth
+2026-04-01 17:34:25,063 - INFO - Starting Training: Model=cnn, Dataset=nih
+2026-04-01 17:34:25,063 - INFO - Using device: cpu
+2026-04-01 17:34:26,556 - INFO - Resuming from checkpoint: results/checkpoints/latest_cnn_nih.pth
+2026-04-01 18:07:49,768 - INFO - Starting Training: Model=cnn, Dataset=nih
+2026-04-01 18:07:51,637 - INFO - Using device: cuda
+2026-04-01 18:07:53,456 - INFO - Resuming from checkpoint: results/checkpoints/latest_cnn_nih.pth
+2026-04-01 18:13:02,937 - INFO - Epoch 01 | Train Loss: 0.0000 | Val Loss: 0.1547
+2026-04-01 18:13:02,987 - INFO - >>> Saved Best Model to results/checkpoints/best_cnn_nih.pth
+2026-04-01 18:17:37,358 - INFO - Epoch 02 | Train Loss: 0.1506 | Val Loss: 0.1484
+2026-04-01 18:17:37,406 - INFO - >>> Saved Best Model to results/checkpoints/best_cnn_nih.pth
+2026-04-01 18:18:21,867 - INFO - Starting Training: Model=cnn, Dataset=nih
+2026-04-01 18:18:23,731 - INFO - Using device: cuda
+2026-04-01 18:18:25,425 - INFO - Resuming from checkpoint: results/checkpoints/latest_cnn_nih.pth
+2026-04-01 18:22:51,444 - INFO - Epoch 02 | Train Loss: 0.0753 | Val Loss: 0.1479
+2026-04-01 18:22:51,511 - INFO - >>> Saved Best Model to results/checkpoints/best_cnn_nih.pth
+2026-04-01 18:27:12,022 - INFO - Epoch 03 | Train Loss: 0.1465 | Val Loss: 0.1457
+2026-04-01 18:27:12,074 - INFO - >>> Saved Best Model to results/checkpoints/best_cnn_nih.pth
+2026-04-01 18:31:36,017 - INFO - Epoch 04 | Train Loss: 0.1426 | Val Loss: 0.1456
+2026-04-01 18:31:36,062 - INFO - >>> Saved Best Model to results/checkpoints/best_cnn_nih.pth
+2026-04-01 18:35:53,052 - INFO - Epoch 05 | Train Loss: 0.1382 | Val Loss: 0.1448
+2026-04-01 18:35:53,100 - INFO - >>> Saved Best Model to results/checkpoints/best_cnn_nih.pth
+2026-04-01 18:38:51,676 - INFO - Starting Training: Model=cnn, Dataset=nih
+2026-04-01 18:38:53,550 - INFO - Using device: cuda
+2026-04-01 18:38:55,313 - INFO - Resuming from checkpoint: results/checkpoints/latest_cnn_nih.pth
+2026-04-01 18:42:26,718 - INFO - Starting Training: Model=cnn, Dataset=nih
+2026-04-01 18:42:28,596 - INFO - Using device: cuda
+2026-04-01 18:42:30,341 - INFO - Resuming from checkpoint: results/checkpoints/latest_cnn_nih.pth
+2026-04-01 18:46:29,307 - INFO - Epoch 05 | Train Loss: 0.0000 | Val Loss: 0.1447
+2026-04-01 18:46:29,362 - INFO - >>> Saved Best Model to results/checkpoints/best_cnn_nih.pth
+2026-04-01 18:50:33,024 - INFO - Epoch 06 | Train Loss: 0.1301 | Val Loss: 0.1458
+2026-04-01 18:54:48,271 - INFO - Epoch 07 | Train Loss: 0.1250 | Val Loss: 0.1480
+2026-04-01 18:58:59,656 - INFO - Epoch 08 | Train Loss: 0.1197 | Val Loss: 0.1501
+2026-04-02 11:11:42,031 - INFO - Starting Training: Model=cnn, Dataset=nih
+2026-04-02 11:11:43,928 - INFO - Using device: cuda
+2026-04-02 11:11:45,561 - INFO - Resuming from checkpoint: results/checkpoints/latest_cnn_nih.pth
+2026-04-02 11:16:11,095 - INFO - Epoch 09 | Train Loss: 0.1103 | Val Loss: 0.1517
+2026-04-02 11:20:23,456 - INFO - Epoch 10 | Train Loss: 0.1126 | Val Loss: 0.1520

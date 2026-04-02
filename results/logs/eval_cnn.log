@@ -1,0 +1,15 @@
+2026-04-02 15:20:22,974 - INFO - Starting Evaluation: Model=cnn, Dataset=nih
+2026-04-02 15:20:24,854 - INFO - Using device: cuda
+2026-04-02 15:20:26,634 - INFO - Loaded checkpoint: results/checkpoints/best_cnn_nih.pth
+2026-04-02 15:21:30,550 - INFO - Total Parameters: 6,968,206
+2026-04-02 15:21:30,590 - INFO - Macro AUC:        0.8345
+2026-04-02 15:21:30,593 - INFO - Macro F1 Score:   0.1687
+2026-04-02 15:21:30,593 - INFO - Exact Match Acc:  0.5284
+2026-04-02 17:32:11,338 - INFO - Starting Evaluation: Model=cnn, Dataset=nih
+2026-04-02 17:32:11,360 - INFO - Using device: cuda
+2026-04-02 17:32:13,190 - INFO - Loaded checkpoint: results/checkpoints/best_cnn_nih.pth
+2026-04-02 17:33:23,927 - INFO - Total Parameters: 6,968,206
+2026-04-02 17:33:23,970 - INFO - Macro AUC:        0.8345
+2026-04-02 17:33:23,970 - INFO - Macro F1 Score:   0.1687
+2026-04-02 17:33:23,970 - INFO - Exact Match Acc:  0.5284
+2026-04-02 17:33:24,200 - INFO - Saved ROC curves to results/plots/roc_cnn.png

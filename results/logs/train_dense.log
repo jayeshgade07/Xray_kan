@@ -1,0 +1,20 @@
+2026-04-02 12:14:27,672 - INFO - Starting Training: Model=dense, Dataset=nih
+2026-04-02 12:14:29,549 - INFO - Using device: cuda
+2026-04-02 12:15:46,672 - INFO - Starting Training: Model=dense, Dataset=nih
+2026-04-02 12:15:48,527 - INFO - Using device: cuda
+2026-04-02 12:15:50,277 - INFO - Resuming from checkpoint: results/checkpoints/latest_dense_nih.pth
+2026-04-02 12:20:38,789 - INFO - Epoch 01 | Train Loss: 0.1461 | Val Loss: 0.1518
+2026-04-02 12:20:38,850 - INFO - >>> Saved Best Model to results/checkpoints/best_dense_nih.pth
+2026-04-02 12:25:37,406 - INFO - Epoch 02 | Train Loss: 0.1556 | Val Loss: 0.1482
+2026-04-02 12:25:37,459 - INFO - >>> Saved Best Model to results/checkpoints/best_dense_nih.pth
+2026-04-02 12:30:49,215 - INFO - Epoch 03 | Train Loss: 0.1510 | Val Loss: 0.1457
+2026-04-02 12:30:49,268 - INFO - >>> Saved Best Model to results/checkpoints/best_dense_nih.pth
+2026-04-02 12:35:30,030 - INFO - Epoch 04 | Train Loss: 0.1475 | Val Loss: 0.1447
+2026-04-02 12:35:30,077 - INFO - >>> Saved Best Model to results/checkpoints/best_dense_nih.pth
+2026-04-02 12:40:01,394 - INFO - Epoch 05 | Train Loss: 0.1440 | Val Loss: 0.1450
+2026-04-02 12:44:28,322 - INFO - Epoch 06 | Train Loss: 0.1402 | Val Loss: 0.1441
+2026-04-02 12:44:28,373 - INFO - >>> Saved Best Model to results/checkpoints/best_dense_nih.pth
+2026-04-02 12:48:53,170 - INFO - Epoch 07 | Train Loss: 0.1364 | Val Loss: 0.1446
+2026-04-02 12:53:18,256 - INFO - Epoch 08 | Train Loss: 0.1319 | Val Loss: 0.1447
+2026-04-02 12:57:42,540 - INFO - Epoch 09 | Train Loss: 0.1287 | Val Loss: 0.1460
+2026-04-02 13:02:06,922 - INFO - Epoch 10 | Train Loss: 0.1262 | Val Loss: 0.1468

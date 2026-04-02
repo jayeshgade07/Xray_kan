@@ -1,0 +1,44 @@
+2026-04-02 15:16:54,133 - INFO - Starting Evaluation: Model=kan, Dataset=nih
+2026-04-02 15:16:56,000 - INFO - Using device: cuda
+2026-04-02 15:16:59,778 - INFO - Total Parameters: 7,082,880
+2026-04-02 15:16:59,783 - INFO - Macro AUC:        nan
+2026-04-02 15:16:59,783 - INFO - Macro F1 Score:   0.0000
+2026-04-02 15:16:59,783 - INFO - Exact Match Acc:  0.0000
+2026-04-02 15:18:09,262 - INFO - Starting Evaluation: Model=kan, Dataset=nih
+2026-04-02 15:18:11,145 - INFO - Using device: cuda
+2026-04-02 15:18:13,019 - INFO - Loaded checkpoint: results/checkpoints/best_kan_nih.pth
+2026-04-02 15:18:51,960 - INFO - Starting Evaluation: Model=kan, Dataset=nih
+2026-04-02 15:18:51,972 - INFO - Using device: cuda
+2026-04-02 15:18:53,920 - INFO - Loaded checkpoint: results/checkpoints/best_kan_nih.pth
+2026-04-02 15:19:29,200 - INFO - Total Parameters: 7,082,880
+2026-04-02 15:19:29,245 - INFO - Macro AUC:        0.5615
+2026-04-02 15:19:29,245 - INFO - Macro F1 Score:   0.0198
+2026-04-02 15:19:29,245 - INFO - Exact Match Acc:  0.5155
+2026-04-02 15:20:03,248 - INFO - Total Parameters: 7,082,880
+2026-04-02 15:20:03,290 - INFO - Macro AUC:        0.5615
+2026-04-02 15:20:03,290 - INFO - Macro F1 Score:   0.0198
+2026-04-02 15:20:03,290 - INFO - Exact Match Acc:  0.5155
+2026-04-02 17:03:11,542 - INFO - Starting Evaluation: Model=kan, Dataset=nih
+2026-04-02 17:03:11,577 - INFO - Using device: cuda
+2026-04-02 17:03:13,706 - INFO - Loaded checkpoint: results/checkpoints/best_kan_nih.pth
+2026-04-02 17:04:22,651 - INFO - Total Parameters: 7,084,928
+2026-04-02 17:04:22,706 - INFO - Macro AUC:        0.8405
+2026-04-02 17:04:22,706 - INFO - Macro F1 Score:   0.1771
+2026-04-02 17:04:22,706 - INFO - Exact Match Acc:  0.5324
+2026-04-02 17:25:54,133 - INFO - Starting Evaluation: Model=kan, Dataset=nih
+2026-04-02 17:25:54,151 - INFO - Using device: cuda
+2026-04-02 17:25:56,044 - INFO - Loaded checkpoint: results/checkpoints/best_kan_nih.pth
+2026-04-02 17:27:03,628 - INFO - Total Parameters: 7,084,928
+2026-04-02 17:27:03,659 - INFO - Macro AUC:        0.8405
+2026-04-02 17:27:03,659 - INFO - Macro F1 Score:   0.1771
+2026-04-02 17:27:03,659 - INFO - Exact Match Acc:  0.5324
+2026-04-02 17:27:03,765 - ERROR - Evaluation error: 'float' object is not callable
+2026-04-02 17:27:03,765 - WARNING - Metrics skipped (labels likely lack variance due to dry run).
+2026-04-02 17:27:58,678 - INFO - Starting Evaluation: Model=kan, Dataset=nih
+2026-04-02 17:27:58,700 - INFO - Using device: cuda
+2026-04-02 17:28:00,522 - INFO - Loaded checkpoint: results/checkpoints/best_kan_nih.pth
+2026-04-02 17:29:08,718 - INFO - Total Parameters: 7,084,928
+2026-04-02 17:29:08,749 - INFO - Macro AUC:        0.8405
+2026-04-02 17:29:08,758 - INFO - Macro F1 Score:   0.1771
+2026-04-02 17:29:08,758 - INFO - Exact Match Acc:  0.5324
+2026-04-02 17:29:09,056 - INFO - Saved ROC curves to results/plots/roc_kan.png

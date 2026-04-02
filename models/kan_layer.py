@@ -36,9 +36,11 @@ class KANLinear(nn.Module):
     def reset_parameters(self):
         nn.init.kaiming_uniform_(self.base_weight, a=math.sqrt(5) * self.scale_base)
         with torch.no_grad():
-            noise = (torch.rand(self.grid_size + 1, self.in_features, self.out_features) - 1/2) * self.scale_noise / self.grid_size
-            self.spline_weight.data.copy_(
-                (self.scale_spline * torch.ones(self.out_features, self.in_features, self.grid_size + self.spline_order))
+            # Corrected initialization: Use small random noise instead of ones to prevent exploding logits
+            nn.init.normal_(
+                self.spline_weight, 
+                mean=0.0, 
+                std=self.scale_noise / (math.sqrt(self.in_features) * (self.grid_size + self.spline_order))
             )
 
     def b_splines(self, x):

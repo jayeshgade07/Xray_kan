@@ -1,0 +1,15 @@
+2026-04-02 15:23:22,025 - INFO - Starting Evaluation: Model=dense, Dataset=nih
+2026-04-02 15:23:23,911 - INFO - Using device: cuda
+2026-04-02 15:23:25,656 - INFO - Loaded checkpoint: results/checkpoints/best_dense_nih.pth
+2026-04-02 15:24:29,542 - INFO - Total Parameters: 7,546,126
+2026-04-02 15:24:29,582 - INFO - Macro AUC:        0.8298
+2026-04-02 15:24:29,582 - INFO - Macro F1 Score:   0.1433
+2026-04-02 15:24:29,582 - INFO - Exact Match Acc:  0.5349
+2026-04-02 17:33:27,509 - INFO - Starting Evaluation: Model=dense, Dataset=nih
+2026-04-02 17:33:27,524 - INFO - Using device: cuda
+2026-04-02 17:33:29,539 - INFO - Loaded checkpoint: results/checkpoints/best_dense_nih.pth
+2026-04-02 17:34:41,312 - INFO - Total Parameters: 7,546,126
+2026-04-02 17:34:41,350 - INFO - Macro AUC:        0.8298
+2026-04-02 17:34:41,350 - INFO - Macro F1 Score:   0.1433
+2026-04-02 17:34:41,350 - INFO - Exact Match Acc:  0.5349
+2026-04-02 17:34:41,576 - INFO - Saved ROC curves to results/plots/roc_dense.png

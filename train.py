@@ -19,7 +19,7 @@ def train_model(args):
     logger.info(f"Using device: {device}")
     
     # 1. Dataloaders
-    train_loader, val_loader, _ = get_dataloaders(args.dataset, data_dir='D:/Xray_Dataset/data', batch_size=args.batch_size)
+    train_loader, val_loader, _ = get_dataloaders(args.dataset, data_dir=args.data_dir, batch_size=args.batch_size)
     if train_loader is None:
         logger.error("Dataloader returned None. Did you run the preprocess script?")
         return
@@ -144,6 +144,7 @@ def train_model(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset', type=str, default='nih')
+    parser.add_argument('--data_dir', type=str, default='./data', help="Path to the dataset directory")
     parser.add_argument('--model_type', type=str, choices=['cnn', 'dense', 'kan'], default='kan')
     parser.add_argument('--epochs', type=int, default=10)
     parser.add_argument('--batch_size', type=int, default=32)
